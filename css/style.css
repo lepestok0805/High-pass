@@ -103,35 +103,44 @@
     background-color: #202020;
 }
 
-.nav {
-    display: block;
-    width: var(--content-width);
-
-}
-
-.nav__list {
+.header__container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    list-style: none;
-    padding-top: 5px;
-    padding-left: 0;
+    align-items: center;
 }
 
-.nav__item {
-    font-family: var(--secondary-font);
-    font-weight: 400;
+.header__nav_list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 79px;
+    padding-left: 140px;
+}
+
+.nav__list_item {
     color: var(--white-color);
-    padding-top: 5px;
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    list-style: none;
+}
+
+.header__logo2 {
+    margin-left: auto;
 }
 
 .container {
     margin: 0 auto;
     padding: 0 var(--container-offset);
     max-width: var(--container-width);
+    width: var(--content-width);
 }
 
-.hero__container {
+.section__hero {
     padding-top: 41px;
     display: flex;
     flex-direction: row;
@@ -253,9 +262,10 @@
     object-position: center;
 }
 
-.about__container {
+.section__about {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     background-color: var(--dark-color);
     margin-top: 68px;
     padding-top: 30px;
@@ -265,6 +275,7 @@
     width: 630px;
     height: 500px;
     margin: 0;
+    padding-left: 15px;
 }
 
 .about-text1 {
@@ -292,7 +303,7 @@
 .about__container2 {
     width: 630px;
     height: 500px;
-    padding-left: 30px;
+    padding-left: 40px;
 }
 
 .about-img1 {
@@ -305,10 +316,139 @@
 
 .about-text3 {
     padding-top: 23px;
+    padding-bottom: 16px;
     color: var(--white-color);
     font-family: var(--secondary-font);
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     margin: 0;
+}
+
+.about-btn {
+    width: 630px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.button-email {
+    background-color: var(--gray-color-dark);
+    display: flex;
+    width: 474px;
+    height: 50px;
+    padding: 15px 23px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.email-text {
+    color: var(--gray-color-light);
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button__about {
+    width: 126px;
+    height: 50px;
+    display: inline-flex;
+    padding: 15px 22px;
+    gap: 10px;
+    background-color: var(--accent-color);
+}
+
+.button-text {
+    color: var(--white-color);
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-items: center;
+}
+
+.section__project {
+    color: var(--white-color);
+    margin-top: 68px;
+}
+
+.project1-text1 {
+    color: var(--dark-color);
+    font-family: var(--secondary-font);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.project1-text2 {
+    position: absolute;
+    color: var(--white-color);
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: var(--dark-color);
+    padding: 6px 14px;
+    align-items: center;
+    gap: 30px;
+    margin: 7px 7px 0 97px;
+}
+
+
+.project1-text3 {
+    position: absolute;
+    color: var(--white-color);
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: var(--dark-color);
+    padding: 6px 14px;
+    align-items: center;
+    gap: 30px;
+    margin: 7px 7px 0 93px;
+
+}
+
+
+.project1-text4 {
+    position: absolute;
+    color: var(--white-color);
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: var(--dark-color);
+    padding: 6px 14px;
+    align-items: center;
+    margin: 7px 7px 0 90px;
+}
+
+.project-img {
+    margin-right: 30px;
+}
+
+.project1-text5 {
+    width: 190px;
+    height: 63px;
+    color: var(--dark-color);
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 137.5% */
+}
+
+.project2 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
 }
