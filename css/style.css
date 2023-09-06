@@ -140,7 +140,7 @@
     width: var(--content-width);
 }
 
-.section__hero {
+.hero__container {
     padding-top: 41px;
     display: flex;
     flex-direction: row;
@@ -370,12 +370,13 @@
     align-items: center;
 }
 
-.section__project {
+.project__container {
+
     color: var(--white-color);
     margin-top: 68px;
 }
 
-.project1-text1 {
+.text1 {
     color: var(--dark-color);
     font-family: var(--secondary-font);
     font-size: 24px;
@@ -384,23 +385,30 @@
     line-height: normal;
 }
 
-.project1-text2 {
-    position: absolute;
-    color: var(--white-color);
-    font-family: var(--primary-font);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    background: var(--dark-color);
-    padding: 6px 14px;
-    align-items: center;
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
     gap: 30px;
+}
+
+.text-position1 {
     margin: 7px 7px 0 97px;
 }
 
+.text-position2 {
+    margin: 7px 7px 0 93px;
+}
 
-.project1-text3 {
+.text-position3 {
+    margin: 7px 7px 0 90px;
+}
+
+.text-position4 {
+    margin: 7px 7px 0 567px;
+}
+
+.card-text2 {
     position: absolute;
     color: var(--white-color);
     font-family: var(--primary-font);
@@ -412,30 +420,9 @@
     padding: 6px 14px;
     align-items: center;
     gap: 30px;
-    margin: 7px 7px 0 93px;
-
 }
 
-
-.project1-text4 {
-    position: absolute;
-    color: var(--white-color);
-    font-family: var(--primary-font);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    background: var(--dark-color);
-    padding: 6px 14px;
-    align-items: center;
-    margin: 7px 7px 0 90px;
-}
-
-.project-img {
-    margin-right: 30px;
-}
-
-.project1-text5 {
+.card-text3 {
     width: 190px;
     height: 63px;
     color: var(--dark-color);
@@ -447,8 +434,36 @@
     /* 137.5% */
 }
 
-.project2 {
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
+.card-calendar {
+    color: var(--gray-color);
+    font-family: var(--primary-font);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 183.333% */
+}
+
+.card-img {
+    object-fit: cover;
+}
+
+.card4-text {
+    color: red;
+    font-family: var(--secondary-font);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 100% */
+}
+
+.par-text {
+    color: red;
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 137.5% */
 }
