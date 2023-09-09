@@ -405,7 +405,7 @@
 }
 
 .text-position4 {
-    margin: 7px 7px 0 567px;
+    margin: 7px 7px 0 537px;
 }
 
 .card-text2 {
@@ -449,7 +449,7 @@
 }
 
 .card4-text {
-    color: red;
+    color: var(--white-color);
     font-family: var(--secondary-font);
     font-size: 24px;
     font-style: normal;
@@ -459,11 +459,40 @@
 }
 
 .par-text {
-    color: red;
+    color: var(--white-color);
     font-family: var(--primary-font);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
     /* 137.5% */
+}
+
+.card4-inside {
+    margin-left: 30px;
+    position: absolute;
+}
+
+.calendar {
+    margin-top: 26px;
+}
+
+.card4-btn {
+    padding: 220px 479px 30px 30px;
+    display: inline-flex;
+    height: 50px;
+    padding: 15px 22px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border: 3px solid var(--accent-color);
+    cursor: pointer;
+
+    color: var(--white-color);
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: transparent;
 }
