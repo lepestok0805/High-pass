@@ -262,7 +262,7 @@
     object-position: center;
 }
 
-.section__about {
+.about__container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -371,7 +371,6 @@
 }
 
 .project__container {
-
     color: var(--white-color);
     margin-top: 68px;
 }
@@ -406,6 +405,10 @@
 
 .text-position4 {
     margin: 7px 7px 0 537px;
+}
+
+.text-position5 {
+    margin: 7px 7px 0 449px;
 }
 
 .card-text2 {
@@ -449,6 +452,8 @@
 }
 
 .card4-text {
+    padding-top: 2px;
+    margin: 0;
     color: var(--white-color);
     font-family: var(--secondary-font);
     font-size: 24px;
@@ -459,6 +464,9 @@
 }
 
 .par-text {
+    margin: 0;
+    padding-top: 6px;
+    padding-bottom: 54px;
     color: var(--white-color);
     font-family: var(--primary-font);
     font-size: 16px;
@@ -468,7 +476,20 @@
     /* 137.5% */
 }
 
-.card4-inside {
+.par2-text {
+    margin: 0;
+    padding-top: 6px;
+    padding-bottom: 101px;
+    color: var(--white-color);
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 137.5% */
+}
+
+.card-inside {
     margin-left: 30px;
     position: absolute;
 }
@@ -478,7 +499,6 @@
 }
 
 .card4-btn {
-    padding: 220px 479px 30px 30px;
     display: inline-flex;
     height: 50px;
     padding: 15px 22px;
@@ -495,4 +515,132 @@
     font-weight: 700;
     line-height: normal;
     background-color: transparent;
+}
+
+.cards5-7 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.card6-text1 {
+    position: absolute;
+    color: var(--white-color);
+    text-align: center;
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 6px 14px;
+}
+
+.text-position6 {
+    margin: 7px 7px 149px 208px;
+}
+
+.card6-text2 {
+    width: 298px;
+    height: 66px;
+    color: var(--dark-color);
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 137.5% */
+}
+
+
+.card7-text1 {
+    position: absolute;
+    color: var(--white-color);
+    background-color: var(--dark-color);
+    text-align: center;
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 6px 14px;
+}
+
+.text-position7 {
+    margin: 7px 7px 149px 204px;
+}
+
+.contact__container {
+    height: 460px;
+}
+
+.contact-card2 {
+    position: relative;
+    top: -465px;
+    width: 410px;
+    height: 460px;
+    flex-shrink: 0;
+    background-color: var(--dark-color-85);
+}
+
+.card-svg {
+    padding: 20px 20px 135px 370px;
+}
+
+.texts {
+    padding-left: 60px;
+}
+
+.contact-text1 {
+    margin: 0;
+    color: var(--white-color);
+    font-family: var(--secondary-font);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 91.667% */
+}
+
+.contact-text2 {
+    margin: 0;
+    width: 300px;
+    color: var(--gray-color-light);
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
+
+.contact-number {
+    margin: 0;
+    color: var(--accent-color);
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card3-txt1 {
+    margin: 0;
+    color: var(--dark-color);
+    font-family: var(--secondary-font);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 91.667% */
+}
+
+.card3-txt2 {
+    color: var(--gray-color);
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 137.5% */
 }
