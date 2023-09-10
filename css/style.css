@@ -625,6 +625,11 @@
     line-height: normal;
 }
 
+.contact-card3 {
+    width: 410px;
+    height: 467px;
+}
+
 .card3-txt1 {
     margin: 0;
     color: var(--dark-color);
@@ -736,4 +741,6 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 20px;
+    padding-top: 8px;
 }
