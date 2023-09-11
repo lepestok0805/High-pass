@@ -575,13 +575,34 @@
     margin: 7px 7px 149px 204px;
 }
 
-.contact-card2 {
+.contact_text1 {
+    color: var(--dark-color);
+    font-family: var(--secondary-font);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 68px;
+}
+
+.contact__container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.container_card {
     position: relative;
-    top: -465px;
+    left: -850px;
     width: 410px;
     height: 460px;
-    flex-shrink: 0;
     background-color: var(--dark-color-85);
+}
+
+.container_card2 {
+    position: relative;
+    left: -380px;
+    height: 410px;
 }
 
 .card-svg {
@@ -605,7 +626,6 @@
 
 .contact-text2 {
     margin: 0;
-    width: 300px;
     color: var(--gray-color-light);
     font-family: var(--primary-font);
     font-size: 16px;
@@ -625,12 +645,7 @@
     line-height: normal;
 }
 
-.contact-card3 {
-    width: 410px;
-    height: 467px;
-}
-
-.card3-txt1 {
+.card2-txt1 {
     margin: 0;
     color: var(--dark-color);
     font-family: var(--secondary-font);
@@ -641,7 +656,7 @@
     /* 91.667% */
 }
 
-.card3-txt2 {
+.card2-txt2 {
     color: var(--gray-color);
     font-family: var(--primary-font);
     font-size: 16px;
@@ -657,8 +672,8 @@
     border: var(--light-color);
     display: flex;
     width: 410px;
-    height: 50px;
-    padding: 15px 23px;
+    height: 45px;
+    padding: 12px 23px;
     align-items: flex-start;
     gap: 10px;
     flex-shrink: 0;
@@ -680,7 +695,7 @@
     border: var(--light-color);
     display: flex;
     width: 410px;
-    height: 150px;
+    height: 145px;
     padding: 15px 23px;
     align-items: flex-start;
     gap: 10px;
@@ -742,5 +757,5 @@
     flex-direction: row;
     justify-content: center;
     gap: 20px;
-    padding-top: 8px;
+    top: 8px;
 }
